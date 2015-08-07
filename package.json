@@ -1,0 +1,20 @@
+{
+  "name": "demo",
+  "version": "0.1.0",
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-ruby-sass": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-minify-css": "*",
+    "gulp-jshint": "*",
+    "gulp-uglify": "*",
+    "gulp-rename": "*",
+    "gulp-clean": "*",
+    "gulp-concat": "*",
+    "gulp-notify": "*",
+    "gulp-cache": "*",
+    "gulp-livereload": "*",
+    "gulp-imagemin": "*",
+    "gulp-connect": "*"
+  }
+}

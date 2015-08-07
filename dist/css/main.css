@@ -1,0 +1,9 @@
+@charset "UTF-8";
+　
+div {
+  width: 100px;
+  height: 200px;
+  background-color: #1875e7; }
+
+.rounded {
+  border-left-radius: 5px; }
