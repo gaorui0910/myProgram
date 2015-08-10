@@ -61,7 +61,7 @@ gulp.task('connect', function() {
 });
 
 gulp.task('dist', function() {
-  gulp.src('dist/**/*')
+  gulp.src('dist/{,**}/*')
     .pipe(connect.reload());
 });
 
@@ -83,7 +83,7 @@ gulp.task('watch', function() {
   gulp.watch('src/images/**/*', ['images']);
 
   // 看守所有位在 dist/  目录下的档案，一旦有更动，便进行重整
-  gulp.watch(['dist/**/*'], ['dist']);
+  gulp.watch(['dist/{,**}/*'], ['dist']);
 
 });
 
